@@ -14,7 +14,8 @@ import {
   Github,
   Boxes,
   Home,
-  GithubIcon
+  GithubIcon,
+  Building,
 } from "lucide-react";
 
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -223,7 +224,7 @@ export const ServerSidebar = async ({
         <a href="https://synclab-minor-project-complete.vercel.app/organization/org_2ZhkNqXY8Isfwh8tOTodOKU2r8Q" target="_blank">
             <div className="flex flex-row gap-x-2 items-center">
               <div>
-                <PlusCircle></PlusCircle>
+                <Building></Building>
               </div>
               <h2 className="text-lg">Your Organization</h2>
             </div>
