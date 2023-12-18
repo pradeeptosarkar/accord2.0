@@ -220,6 +220,15 @@ export const ServerSidebar = async ({
         <Separator className="bg-zinc-200 dark:bg-zinc-700 rounded-md my-2" />
         <div className="pb-2 flex h-full flex-col gap-y-0">
 
+        <a href="https://synclab-minor-project-complete.vercel.app/organization/org_2ZhkNqXY8Isfwh8tOTodOKU2r8Q" target="_blank">
+            <div className="flex flex-row gap-x-2 items-center">
+              <div>
+                <PlusCircle></PlusCircle>
+              </div>
+              <h2 className="text-lg">Your Organization</h2>
+            </div>
+          </a>
+
           <a href="https://taskify-omega.vercel.app/documents" target="_blank">
             <div className="flex flex-row gap-x-2 items-center">
               <div>
